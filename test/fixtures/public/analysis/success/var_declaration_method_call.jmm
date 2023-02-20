@@ -1,0 +1,18 @@
+import java.io.File;
+import Parent;
+
+class Child extends Parent {
+    int a;
+    boolean b;
+
+    public int f() {
+        File c;
+
+        c = this.newFile();
+        return 0;
+    }
+
+    public File newFile() {
+        return new File();
+    }
+}

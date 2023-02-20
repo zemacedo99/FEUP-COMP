@@ -1,0 +1,10 @@
+class Child {
+    int a;
+    boolean b;
+
+    public static void main(String[] args) {
+        int a;
+        int c;
+        c = a; // Undefined a
+    }
+}

@@ -1,0 +1,21 @@
+class Child {
+    int a;
+    boolean b;
+
+    public static void main(String[] args) {
+        int c;
+        c = 1;
+        c + 1;
+        c < 2 && false;
+    }
+
+    public int f1() {
+        int c;
+        c = 10;
+        a = 2;
+        b = true;
+        a + 1;
+        c + 2;
+        return a;
+    }
+}
